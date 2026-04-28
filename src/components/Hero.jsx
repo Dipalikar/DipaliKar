@@ -2,6 +2,7 @@ import {
   ArrowRight,
   Download,
   Github,
+  Linkedin,
   Mail,
   MapPin,
   Sparkles,
@@ -62,6 +63,17 @@ export default function Hero() {
                 <Github className="h-4 w-4 text-accent-300" />
                 {profile.githubHandle}
               </a>
+              {profile.linkedin && (
+                <a
+                  href={profile.linkedin}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 transition-colors hover:text-white"
+                >
+                  <Linkedin className="h-4 w-4 text-accent-300" />
+                  {profile.linkedinHandle}
+                </a>
+              )}
             </div>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">

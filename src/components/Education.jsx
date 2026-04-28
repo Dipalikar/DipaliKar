@@ -68,10 +68,10 @@ export default function Education() {
                       href={c.verifyUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="mt-2 inline-flex items-center gap-1.5 text-xs font-semibold text-accent-300 transition-colors hover:text-accent-200"
+                      className="btn-ghost mt-3 py-1.5 px-3 text-xs w-fit inline-flex"
                     >
-                      Verify credential
                       <ExternalLink className="h-3 w-3" />
+                      Verify credential
                     </a>
                   )}
                 </li>

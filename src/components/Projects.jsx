@@ -1,4 +1,4 @@
-import { Github, Sparkles } from 'lucide-react';
+import { Github, ExternalLink, Sparkles } from 'lucide-react';
 import { projects, profile } from '../data/portfolio.js';
 
 export default function Projects() {
@@ -80,8 +80,32 @@ export default function Projects() {
                 ))}
               </div>
 
-              <div className="mt-6 flex items-center justify-between border-t border-white/5 pt-4 text-xs text-ink-400">
-                <span>Role · {p.role}</span>
+              <div className="mt-6 flex flex-col gap-4 border-t border-white/5 pt-4">
+                <span className="text-xs text-ink-400">Role · {p.role}</span>
+                <div className="flex gap-3">
+                  {p.liveUrl && (
+                    <a
+                      href={p.liveUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn-primary py-1.5 px-3 text-xs"
+                    >
+                      <ExternalLink className="h-3 w-3" />
+                      Live Demo
+                    </a>
+                  )}
+                  {p.repoUrl && (
+                    <a
+                      href={p.repoUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn-ghost py-1.5 px-3 text-xs"
+                    >
+                      <Github className="h-3 w-3" />
+                      Repository
+                    </a>
+                  )}
+                </div>
               </div>
             </article>
           ))}

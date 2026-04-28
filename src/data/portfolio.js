@@ -5,7 +5,7 @@ export const profile = {
   name: "Dipali Kar",
   firstName: "Dipali",
   lastName: "Kar",
-  title: "Full Stack Developer & AI / Cloud Engineer",
+  title: "Full-Stack & GenAI Developer | React • Node.js • Python | RAG/MCP • Google GenAI SDK",
   tagline:
     "I build intelligent, full-stack web applications — blending React, Node.js, AWS and Generative AI to ship real-world SaaS products.",
   about:
@@ -15,6 +15,8 @@ export const profile = {
   phone: "+91 7008213073",
   github: "https://github.com/dipalikar",
   githubHandle: "github.com/dipalikar",
+  linkedin: "https://www.linkedin.com/in/dipali-kar/",
+  linkedinHandle: "linkedin.com/in/dipali-kar/",
   resumeFile: "DipaliKarResume.pdf",
   resumeUrl:
     "https://github.com/Dipalikar/DipaliKar/raw/main/DipaliKarResume.pdf",
@@ -34,12 +36,12 @@ export const skillGroups = [
     title: "AI / GenAI",
     accent: true,
     items: [
-      "AI Agents",
-      "RAG (Retrieval-Augmented Generation)",
-      "MCP (Model Context Protocol)",
-      "LLM Tool Calls",
+      "Google GenAI SDK",
+      "RAG",
+      "MCP",
+      "OpenRouter",
+      "ChromaDB",
       "Prompt Engineering",
-      "Vector Databases",
     ],
   },
   {
@@ -52,11 +54,11 @@ export const skillGroups = [
   },
   {
     title: "Backend",
-    items: ["Node.js", "Express.js", "REST APIs"],
+    items: ["Node.js", "Express.js", "REST APIs", "JWT", "PostgreSQL/NeonDB", "API Integrations"],
   },
   {
-    title: "Cloud",
-    items: ["AWS EC2", "AWS S3", "AWS Lambda"],
+    title: "Cloud & DevOps",
+    items: ["AWS EC2", "AWS S3", "AWS Lambda", "Git/GitHub", "Postman", "API Testing", "Deployment Awareness"],
   },
   {
     title: "Databases",
@@ -85,7 +87,7 @@ export const experience = [
     ],
   },
   {
-    company: "Career Break — Technical Upskilling",
+    company: "Independent Research & Project Development",
     role: "Self-directed Learning & Project Development",
     period: "Sep 2025 – Present",
     location: "Remote",
@@ -103,10 +105,12 @@ export const projects = [
     description:
       "A premium document management and learning platform where users upload notes and interact with ALKA — an in-built AI agent that summarizes content, generates quizzes and autonomously manages files using RAG and MCP-based tool calls.",
     bullets: [
-      "React + TailwindCSS frontend with an Express / Node.js backend.",
-      "Google GenAI SDK for LLM inference and OpenRouter for multi-model flexibility.",
-      "NeonDB (Postgres) for persistent storage with retrieval-augmented context.",
+      "Built Helper.io using React, Node.js, Express, NeonDB, and OpenRouter SDK to create a premium document management and learning platform with an autonomous AI agent.",
+      "Integrated Google GenAI SDK and MCP-based tool calls to automate content summarization, quiz generation, and file management.",
+      "Utilized RAG to provide retrieval-augmented context for accurate AI responses.",
     ],
+    liveUrl: "https://helperio.vercel.app/",
+    repoUrl: "https://github.com/dipalikar/Helper.io",
     stack: [
       "React",
       "TailwindCSS",
@@ -124,10 +128,12 @@ export const projects = [
     description:
       "A subscription SaaS offering multiple AI-powered tools — article generation, image creation, background removal and resume analysis — built on the full PERN stack with JWT auth and tiered access control.",
     bullets: [
-      "Integrated Google GenAI SDK and OpenRouter for flexible multi-model AI routing.",
-      "Responsive React + TailwindCSS dashboard with usage tracking and upgrade flows.",
-      "PostgreSQL-backed billing tier and credit system gating premium features.",
+      "Built QuickAI using the PERN stack to deliver a subscription-based AI SaaS platform offering multiple AI-powered tools.",
+      "Integrated Google GenAI SDK and OpenRouter to enable flexible multi-model AI routing for article generation and resume analysis.",
+      "Implemented JWT authentication and a PostgreSQL-backed credit system to gate premium features and manage user tiers.",
     ],
+    liveUrl: "https://quick-ai-livid-omega.vercel.app/",
+    repoUrl: "https://github.com/dipalikar/QuickAI",
     stack: [
       "PostgreSQL",
       "Express.js",
@@ -143,7 +149,7 @@ export const projects = [
 export const education = [
   {
     institution: "Ravenshaw University",
-    degree: "B.Sc. in Information Technology & Management",
+    degree: "B.Sc. Information Technology and Management (ITM)",
     period: "2021 – 2024",
   },
   {
