@@ -5,7 +5,8 @@ export const profile = {
   name: "Dipali Kar",
   firstName: "Dipali",
   lastName: "Kar",
-  title: "Full-Stack & GenAI Developer | React • Node.js • Python | RAG/MCP • Google GenAI SDK",
+  title:
+    "Full-Stack & GenAI Developer | React • Node.js • Python | RAG/MCP • Google GenAI SDK",
   tagline:
     "I build intelligent, full-stack web applications — blending React, Node.js, AWS and Generative AI to ship real-world SaaS products.",
   about:
@@ -40,7 +41,6 @@ export const skillGroups = [
       "RAG",
       "MCP",
       "OpenRouter",
-      "ChromaDB",
       "Prompt Engineering",
     ],
   },
@@ -54,11 +54,26 @@ export const skillGroups = [
   },
   {
     title: "Backend",
-    items: ["Node.js", "Express.js", "REST APIs", "JWT", "PostgreSQL/NeonDB", "API Integrations"],
+    items: [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "JWT",
+      "PostgreSQL/NeonDB",
+      "API Integrations",
+    ],
   },
   {
     title: "Cloud & DevOps",
-    items: ["AWS EC2", "AWS S3", "AWS Lambda", "Git/GitHub", "Postman", "API Testing", "Deployment Awareness"],
+    items: [
+      "AWS EC2",
+      "AWS S3",
+      "AWS Lambda",
+      "Git/GitHub",
+      "Postman",
+      "API Testing",
+      "Deployment Awareness",
+    ],
   },
   {
     title: "Databases",
